@@ -1,0 +1,205 @@
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+
+    }
+    .main-header {
+
+        background-color: #009951;
+      
+    }
+    
+.top-services-item {
+    padding: 20px
+}
+
+.top-services-item h3 {
+    font-size: 22px
+}
+.download{
+    margin-bottom: 50px;
+    max-width: 100%;
+    }
+    .download img{
+        max-width: 150px;
+        padding: 8px;
+    }
+ 
+    @keyframes rotateImage {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .rotating-image {
+        max-width: 350px;
+
+        animation: rotateImage 5s linear infinite; /* 5s for smooth rotation */
+    }
+    
+    .footer-area .container {
+        padding: 100px; /* Reduce padding for smaller screens */
+        border-top-left-radius: 20%; /* Adjust the radius */
+        border-top-right-radius: 20%; /* Adjust the radius */
+    }
+
+    .single-footer-widget h3 {
+        font-size: 20px; /* Reduce heading size */
+    }
+
+    .single-footer-widget .footer-contact-info li i {
+        font-size: 20px; /* Adjust icon size */
+    }
+
+    .single-footer-widget .footer-contact-info li span {
+        font-size: 16px; /* Reduce font size for better readability */
+    }
+
+    .single-footer-widget .footer-contact-info li a {
+        font-size: 14px; /* Reduce link font size */
+    }
+
+    .single-footer-widget .quick-links li {
+        margin-bottom: 8px; /* Adjust margin between links */
+    }
+
+    .single-footer-widget .quick-links li a {
+        font-size: 14px; /* Adjust link font size */
+    }
+
+    .copyright-area {
+        padding: 15px 10px; /* Reduce padding for the copyright section */
+    }
+
+    .copyright-area .copyright-area-content p {
+        font-size: 14px; /* Adjust font size */
+    }
+    .single-footer-widget .footer-logo .social li a i {
+        height: 40px;
+        width: 40px;
+        line-height: 40px
+    }
+    .hero{
+        padding: 50px;
+
+    }
+    .hero-content{
+        margin-top: 100px;
+      
+    }
+    .team{
+        max-width: 100%;
+        margin: 20px;
+    }
+    .Mission{
+        padding-left: 30px;
+        font-size: 20px;
+    }
+    .proimg{
+        width: 100%;
+    }
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr); /* Keeps 2 columns on smaller screens */
+    }
+    #hero{
+        padding: 40px;
+    }
+    .helphero {
+        padding: 50px;
+    }
+    .Why{
+        padding: 40px;
+    }
+    .teamhero{
+padding: 10px;
+    }
+    .termshero{
+        padding: 50px;
+    }
+    .tabs {
+        flex-direction: column;
+    }
+    .tab-btn {
+        margin-bottom: 5px;
+    }
+}
+
+/* Media Query for very small screens (mobile devices) */
+@media (max-width: 480px) {
+    #hero{
+        padding: 80px;
+    }
+    .footer-area .container {
+        padding: 50px; /* Further reduce padding */
+    }
+
+    .single-footer-widget h3 {
+        font-size: 18px; /* Further reduce heading size */
+    }
+
+    .single-footer-widget .footer-contact-info li i {
+        font-size: 18px; /* Adjust icon size */
+    }
+
+    .single-footer-widget .footer-contact-info li span {
+        font-size: 14px; /* Reduce font size */
+    }
+
+    .single-footer-widget .footer-contact-info li a {
+        font-size: 12px; /* Further reduce link font size */
+    }
+
+    .single-footer-widget .quick-links li {
+        margin-bottom: 5px; /* Reduce margin between links */
+    }
+
+    .single-footer-widget .quick-links li a {
+        font-size: 12px; /* Further reduce link font size */
+    }
+
+    .copyright-area {
+        padding: 10px; /* Minimal padding for small devices */
+    }
+
+    .copyright-area .copyright-area-content p {
+        font-size: 18px; /* Adjust font size */
+    }
+    .single-footer-widget .footer-logo .social li a i {
+        height: 40px;
+        width: 40px;
+        line-height: 40px
+    }
+    .hero{
+        padding: 50px;
+
+    }
+    .hero-content{
+        margin-top: 100px;
+      
+    }
+    .team{
+        max-width: 100%;
+        margin: 20px;
+    }
+    .Mission{
+        padding-left: 30px;
+        font-size: 20px;
+    }
+    .proimg{
+        width: 100%;
+    }
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr); /* Keeps 2 columns on smaller screens */
+    }
+    .tabs {
+        flex-direction: column;
+    }
+    .tab-btn {
+        margin-bottom: 5px;
+    }
+    
+}
