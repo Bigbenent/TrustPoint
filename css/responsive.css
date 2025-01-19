@@ -105,9 +105,9 @@
     .photo-grid {
         grid-template-columns: repeat(2, 1fr); /* Keeps 2 columns on smaller screens */
     }
-    #hero{
-        padding: 40px;
-    }
+    /* #hero{
+        padding: 100px;
+    } */
     .helphero {
         padding: 50px;
     }
@@ -125,6 +125,16 @@ padding: 10px;
     }
     .tab-btn {
         margin-bottom: 5px;
+    }
+
+    .main-header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+        background-color: #009951; 
+        transition: all 0.3s ease;
+        margin-bottom: 50px;
     }
 }
 

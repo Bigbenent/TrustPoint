@@ -37,11 +37,12 @@ p {
 #hero {
     background: url('../img/hero-bg.jpg') no-repeat center center;
     background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-position: center;
+    color: white;
     text-align: center;
+    max-height: 100%;
+    padding: 80px;
+    max-width: 100%;
 }
 #hero .container{
     margin-top: 15px;
