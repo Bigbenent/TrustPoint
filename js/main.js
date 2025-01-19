@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // header.js
 window.addEventListener("scroll", function () {
     const header = document.querySelector(".main-header");
@@ -84,7 +84,7 @@ function toggleFaq(element) {
     }
   }
   
-=======
+
 // header.js
 window.addEventListener("scroll", function () {
     const header = document.querySelector(".main-header");
@@ -93,12 +93,20 @@ window.addEventListener("scroll", function () {
 
     // preloader
    // Simulating loading time
-   window.onload = function() {
+   document.addEventListener('DOMContentLoaded', function() {
     setTimeout(function() {
-        document.getElementById("preloader").classList.add("fade-out");
-        document.getElementById("content").style.display = "block";
+        const preloader = document.getElementById("preloader");
+        const content = document.getElementById("content");
+
+        if (preloader && content) {
+            preloader.classList.add("fade-out");
+            content.style.display = "block";
+        } else {
+            console.log("Element not found");
+        }
     }, 2000); // Adjust time as needed
-};
+});
+
 
 // patnership 
 $(document).ready(function() {
@@ -170,5 +178,5 @@ function toggleFaq(element) {
     }
   }
   
->>>>>>> 1594614 (Initial commit - Landing Page)
+
   

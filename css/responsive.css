@@ -99,9 +99,10 @@
         padding-left: 30px;
         font-size: 20px;
     }
-    .proimg{
+    .providers .proimg{
         width: 100%;
     }
+    
     .photo-grid {
         grid-template-columns: repeat(2, 1fr); /* Keeps 2 columns on smaller screens */
     }
@@ -115,7 +116,7 @@
         padding: 40px;
     }
     .teamhero{
-padding: 10px;
+padding: 20px;
     }
     .termshero{
         padding: 50px;
@@ -127,14 +128,12 @@ padding: 10px;
         margin-bottom: 5px;
     }
 
-    .main-header {
-        position: fixed;
-        width: 100%;
-        top: 0;
-        z-index: 1000;
-        background-color: #009951; 
-        transition: all 0.3s ease;
-        margin-bottom: 50px;
+    
+    .hero-content{
+        max-width: 100%;
+    }
+    section{
+        max-width: 100%;
     }
 }
 
